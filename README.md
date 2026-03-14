@@ -21,13 +21,7 @@ Helps maintain document authenticity
 Metadata stored in SQLite database
 
 # Tech Stack
-Technology	             Purpose
-Python	                Backend logic
-Flask	Web                framework
-SQLite	                  Database
-HTML	                 Web page structure
-CSS	                      Styling
-JavaScript	          Frontend interactivity
+The system is developed using Python with the Flask framework for the backend, HTML, CSS, and JavaScript for the frontend, and SQLite for database management, with local file storage used for uploaded SLA documents.
 
 # Installation
 1️] Clone the Repository

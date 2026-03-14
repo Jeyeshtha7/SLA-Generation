@@ -29,44 +29,6 @@ HTML	                 Web page structure
 CSS	                      Styling
 JavaScript	          Frontend interactivity
 
-# System Architecture
-+----------------------+
-|      User (Client)   |
-|  Browser Interface   |
-+----------+-----------+
-           |
-           | HTTP Request/Response
-           v
-+------------------------------+
-|       Presentation Layer     |
-|  HTML | CSS | JavaScript     |
-|  (Login, Upload, Dashboard)  |
-+--------------+---------------+
-               |
-               v
-+------------------------------+
-|      Application Layer       |
-|         Flask Server         |
-|                              |
-| - Authentication System      |
-| - SLA Generation Logic       |
-| - Document Verification      |
-| - File Upload Handling       |
-| - Unique ID Generation       |
-+--------------+---------------+
-               |
-               v
-+------------------------------+
-|          Data Layer          |
-|                              |
-|  SQLite Database             |
-|  - User Data                 |
-|  - Document Metadata         |
-|                              |
-|  File Storage (Uploads)      |
-|  - SLA Documents             |
-+------------------------------+
-
 # Installation
 1️] Clone the Repository
 git clone https://github.com/yourusername/sla-generation-system.git

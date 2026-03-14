@@ -29,24 +29,24 @@ Metadata stored in SQLite database
 * Unique Identification: UUID for document tracking
 
 # Installation
-1️] Clone the Repository
+* Clone the Repository
 git clone https://github.com/yourusername/sla-generation-system.git
 cd sla-generation-system
-2️] Create Virtual Environment
+* Create Virtual Environment
 python -m venv venv
 Activate it:
 Windows - venv\Scripts\activate
 Mac/Linux - source venv/bin/activate
-3️] Install Dependencies
+* Install Dependencies
 pip install flask flask-login
-4️] Run the Application
+* Run the Application
 python app.py
-Then open:
+* Then open:
 http://localhost:5000
 
 # Future Improvements
 
-1] Blockchain-based document verification
-2] Cloud storage integration
-3] AI-based document analysis
-4] Digital signature support
+* Blockchain-based document verification
+* Cloud storage integration
+* AI-based document analysis
+* Digital signature support

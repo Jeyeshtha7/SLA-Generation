@@ -21,7 +21,12 @@ Helps maintain document authenticity
 Metadata stored in SQLite database
 
 # Tech Stack
-The system is developed using Python with the Flask framework for the backend, HTML, CSS, and JavaScript for the frontend, and SQLite for database management, with local file storage used for uploaded SLA documents.
+* Backend: Python, Flask
+* Frontend: HTML, CSS, JavaScript
+* Database: SQLite
+* Authentication: Flask-Login, Password Hashing
+* File Storage: Local server storage (Uploads folder)
+* Unique Identification: UUID for document tracking
 
 # Installation
 1️] Clone the Repository
